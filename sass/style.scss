@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box; }
+
+$color-one: #0097e6;
+$color-two: #33d9b2;
+$color-text: #ffffff;
+
+$font-text: 'Montserrat', sans-serif;
+$font-header: 'Amiri', serif;
+
+body {
+font-family: $font-text;
+
+}
+
+.container {
+    max-width: 1000px;
+
+    .row {
+        .logo {
+            font-family: $font-header;
+            font-size: 16px;
+            margin: 0;
+
+            h1 {
+                font-style: italic;
+                margin: 0;
+                color: gold;
+            }
+        }
+        .menu {
+            text-transform: uppercase;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;       
+
+            ul {
+                li {
+                    display: inline-block;
+                    margin-left: 15px;
+                }
+            }    
+        }
+    }
+}

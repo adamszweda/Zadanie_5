@@ -15,6 +15,7 @@ body {
 font-family: $font-text;
 font-size: 16px;
 }
+
 section {
     margin: 48px 0;
 }
@@ -108,6 +109,29 @@ section {
             margin: 0 auto;
         }
     }
+}
+
+.service-tab {
+    text-align: center;
+
+    .ico {
+        position: relative;
+        margin: 0 auto;
+        width: 80px;
+        height: 80px;
+        border: 2px solid black;
+        border-radius: 50px;
+        border-color: $color-one;
+    }
+    
+        i {
+            position: absolute;
+            color: $color-one;
+            font-size: 36px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
 }
 
 .gallery {

@@ -16,6 +16,7 @@ section {
   font-style: italic;
   margin: 0;
   font-size: 125%;
+  color: grey;
 }
 
 .section-title {
@@ -134,7 +135,7 @@ section {
 }
 
 .gallery {
-  background-color: lightgrey;
+  background-color: #ecf0f1;
 }
 
 .gallery .gallery-tab {

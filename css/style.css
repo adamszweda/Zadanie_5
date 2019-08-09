@@ -11,6 +11,13 @@ section {
   margin: 48px 0;
 }
 
+.subtext {
+  font-family: "Amiri", serif;
+  font-style: italic;
+  margin: 0;
+  font-size: 125%;
+}
+
 .section-title {
   text-align: center;
   margin: 48px 0;
@@ -32,12 +39,7 @@ section {
 
 .container {
   width: 1140px;
-  padding: 0 20px;
-  min-height: 400px;
-}
-
-.container .row {
-  padding: 15px;
+  padding: 20px;
 }
 
 .container .row .logo {
@@ -57,7 +59,7 @@ section {
       justify-content: flex-end;
   -ms-flex-direction: row;
       flex-direction: row;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
 }
 
@@ -68,13 +70,13 @@ section {
 
 .container .row .menu ul li:hover {
   cursor: pointer;
-  color: #FEB70D;
+  color: #B71C1C;
 }
 
 .container .welcome {
   color: #ffffff;
   text-align: center;
-  margin: 0 20px;
+  margin: 96px 20px;
 }
 
 .container .welcome h2 {
@@ -103,6 +105,11 @@ section {
   margin: 0 auto;
 }
 
+.container .welcome .button:hover {
+  cursor: pointer;
+  background-color: #8b1515;
+}
+
 .service-tab {
   text-align: center;
 }
@@ -127,6 +134,28 @@ section {
 }
 
 .gallery {
-  background-color: azure;
+  background-color: lightgrey;
+}
+
+.gallery .gallery-tab {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.gallery .gallery-tab img {
+  height: 350px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery .gallery-tab .gallery-description {
+  margin: -5px 0 auto;
+  padding: 10px 0;
+  background-color: #ffffff;
+}
+
+.gallery .gallery-tab .gallery-description h3, .gallery .gallery-tab .gallery-description p {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

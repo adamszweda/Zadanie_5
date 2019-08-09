@@ -169,3 +169,62 @@ section {
         }
     }
 }
+
+.social, .copy {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+
+.footerrow {
+    justify-content: start;
+
+
+.social {
+    font-size: 26px;
+
+    .socialico {
+        display: inline-block;
+        position: relative;        
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        border-radius: 50px;
+        margin: 0 5px;
+
+        &:hover {
+            filter: brightness(70%);
+            cursor: pointer;
+        }
+    }
+
+    i {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .tt {
+        background-color: #00acee;
+        border-color:  #00acee;
+    }
+
+    .fb {
+        background-color: #3C5A99;
+        border-color:  #3C5A99;
+    }
+
+    .pin {
+        background-color: #c8232c;
+        border-color:  #c8232c;
+    }
+
+    .googleplus {
+        background-color:#d34836;
+        border-color:  #d34836;
+    }
+}
+
+}

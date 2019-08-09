@@ -8,7 +8,7 @@ body {
 }
 
 section {
-  margin: 48px 0;
+  margin: 48px 0 0 0;
 }
 
 .subtext {
@@ -113,6 +113,7 @@ section {
 
 .service-tab {
   text-align: center;
+  margin-top: 10px;
 }
 
 .service-tab .ico {
@@ -125,7 +126,7 @@ section {
   border-color: #FEB70D;
 }
 
-.service-tab i {
+.service-tab .ico i {
   position: absolute;
   color: #FEB70D;
   font-size: 36px;
@@ -166,16 +167,11 @@ section {
   text-align: center;
 }
 
-.footerrow {
-  -ms-flex-pack: start;
-      justify-content: start;
-}
-
-.footerrow .social {
+.social {
   font-size: 26px;
 }
 
-.footerrow .social .socialico {
+.social .socialico {
   display: inline-block;
   position: relative;
   width: 50px;
@@ -185,12 +181,12 @@ section {
   margin: 0 5px;
 }
 
-.footerrow .social .socialico:hover {
+.social .socialico:hover {
   filter: brightness(70%);
   cursor: pointer;
 }
 
-.footerrow .social i {
+.social i {
   color: white;
   position: absolute;
   top: 50%;
@@ -198,22 +194,22 @@ section {
   transform: translate(-50%, -50%);
 }
 
-.footerrow .social .tt {
+.social .tt {
   background-color: #00acee;
   border-color: #00acee;
 }
 
-.footerrow .social .fb {
+.social .fb {
   background-color: #3C5A99;
   border-color: #3C5A99;
 }
 
-.footerrow .social .pin {
+.social .pin {
   background-color: #c8232c;
   border-color: #c8232c;
 }
 
-.footerrow .social .googleplus {
+.social .googleplus {
   background-color: #d34836;
   border-color: #d34836;
 }

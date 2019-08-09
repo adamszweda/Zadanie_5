@@ -12,12 +12,12 @@ $font-logo: 'Lily Script One', cursive;
 
 
 body {
-font-family: $font-text;
-font-size: 16px;
+    font-family: $font-text;
+    font-size: 16px;
 }
 
 section {
-    margin: 48px 0;
+    margin: 48px 0 0 0;
 }
 
 .subtext {
@@ -124,6 +124,7 @@ section {
 
 .service-tab {
     text-align: center;
+    margin-top: 10px;
 
     .ico {
         position: relative;
@@ -133,7 +134,7 @@ section {
         border: 2px solid black;
         border-radius: 50px;
         border-color: $color-one;
-    }
+    
     
         i {
             position: absolute;
@@ -143,6 +144,7 @@ section {
             top: 50%;
             transform: translate(-50%, -50%);
         }
+    }    
 }
 
 .gallery {
@@ -175,10 +177,6 @@ section {
     display: inline-block;
     text-align: center;
 }
-
-.footerrow {
-    justify-content: start;
-
 
 .social {
     font-size: 26px;
@@ -225,6 +223,4 @@ section {
         background-color:#d34836;
         border-color:  #d34836;
     }
-}
-
 }
